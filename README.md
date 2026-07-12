@@ -3,6 +3,7 @@ Docker monitoring stack with Prometheus, Grafana, and Node Exporter
 # 🖥️ Docker Monitoring Stack
 
 یک استک کامل مانیتورینگ با استفاده از **Docker** و **Docker Compose** شامل:
+<img width="1363" height="603" alt="image" src="https://github.com/user-attachments/assets/7bcea4cf-6cdf-4a77-98a5-1bf4d3ef54b2" />
 
 - [**Prometheus**](https://prometheus.io/) - جمع‌آوری و ذخیره‌سازی متریک‌ها
 - [**Grafana**](https://grafana.com/) - نمایش و تحلیل داده‌ها با داشبوردهای زیبا
