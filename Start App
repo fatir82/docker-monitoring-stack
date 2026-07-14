@@ -1,0 +1,38 @@
+# اجرای همه سرویس‌ها
+docker-compose up -d
+
+# بررسی وضعیت
+docker-compose ps
+
+# مشاهده لاگ‌ها
+docker-compose logs -f
+
+
+
+۶. دسترسی به سرویس‌ها
+سرویس	آدرس	یوزرنیم/پسورد
+Prometheus	http://localhost:9090	-
+Grafana	http://localhost:3000	admin / admin
+Node Exporter	http://localhost:9100	-
+Alertmanager	http://localhost:9093	-
+
+تنظیم Grafana
+بعد از اجرا:
+
+برو به http://localhost:3000
+
+لاگین کن با admin / admin
+
+برو به Configuration → Data Sources → Add data source
+
+انتخاب Prometheus
+
+آدرس: http://prometheus:9090
+
+Save & Test
+
+بعد Dashboards → Import
+
+کد 1860 رو وارد کن (Node Exporter Full داشبورد معروف)
+
+منبع داده رو Prometheus انتخاب کن
